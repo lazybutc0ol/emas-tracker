@@ -1,0 +1,36 @@
+name: Scrape Harga Emas Harian
+
+on:
+  schedule:
+    # 02:05 UTC = 09:05 WIB (harga ANTAM update pkl 08:30 WIB)
+    - cron: "5 2 * * *"
+  workflow_dispatch: {}   # tombol "Run workflow" untuk jalankan manual kapan saja
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Jalankan scraper
+        run: python harga_emas.py
+
+      - name: Commit & push data baru
+        run: |
+          git config user.name "emas-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --cached --quiet && echo "Tidak ada perubahan data" || \
+            (git commit -m "data: harga emas $(date -u -d '+7 hours' +%Y-%m-%d)" && git push)
