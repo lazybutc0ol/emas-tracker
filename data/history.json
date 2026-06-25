@@ -103,5 +103,12 @@
     "harga_pajak_1gr": 2661638,
     "buyback_per_gram": 2372000,
     "spread_1gr": 283000
+  },
+  {
+    "tanggal": "2026-06-25",
+    "harga_dasar_1gr": 2655000,
+    "harga_pajak_1gr": 2661638,
+    "buyback_per_gram": 2320000,
+    "spread_1gr": 335000
   }
 ]
