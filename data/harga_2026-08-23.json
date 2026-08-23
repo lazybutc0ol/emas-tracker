@@ -1,0 +1,103 @@
+{
+  "diambil_pada": "2026-08-23T10:11:10+07:00",
+  "sumber": {
+    "harga": "https://www.logammulia.com/id/harga-emas-hari-ini",
+    "buyback": "https://www.logammulia.com/id/sell/gold"
+  },
+  "harga": {
+    "tanggal_halaman": "23 Aug 2026",
+    "kategori": {
+      "Emas Batangan": [
+        {
+          "berat_gr": 0.5,
+          "harga_dasar": 1420000,
+          "harga_pajak": 1423550
+        },
+        {
+          "berat_gr": 1.0,
+          "harga_dasar": 2740000,
+          "harga_pajak": 2746850
+        },
+        {
+          "berat_gr": 2.0,
+          "harga_dasar": 5420000,
+          "harga_pajak": 5433550
+        },
+        {
+          "berat_gr": 3.0,
+          "harga_dasar": 8105000,
+          "harga_pajak": 8125263
+        },
+        {
+          "berat_gr": 5.0,
+          "harga_dasar": 13475000,
+          "harga_pajak": 13508688
+        },
+        {
+          "berat_gr": 10.0,
+          "harga_dasar": 26895000,
+          "harga_pajak": 26962238
+        },
+        {
+          "berat_gr": 25.0,
+          "harga_dasar": 67112000,
+          "harga_pajak": 67279780
+        },
+        {
+          "berat_gr": 50.0,
+          "harga_dasar": 134145000,
+          "harga_pajak": 134480363
+        },
+        {
+          "berat_gr": 100.0,
+          "harga_dasar": 268212000,
+          "harga_pajak": 268882530
+        },
+        {
+          "berat_gr": 250.0,
+          "harga_dasar": 670265000,
+          "harga_pajak": 671940663
+        },
+        {
+          "berat_gr": 500.0,
+          "harga_dasar": 1340320000,
+          "harga_pajak": 1343670800
+        },
+        {
+          "berat_gr": 1000.0,
+          "harga_dasar": 2680600000,
+          "harga_pajak": 2687301500
+        }
+      ],
+      "Emas Batangan Gift Series": [
+        {
+          "berat_gr": 0.5,
+          "harga_dasar": 1490000,
+          "harga_pajak": 1493725
+        },
+        {
+          "berat_gr": 1.0,
+          "harga_dasar": 2890000,
+          "harga_pajak": 2897225
+        }
+      ],
+      "Emas Batangan Batik Seri III": [
+        {
+          "berat_gr": 10.0,
+          "harga_dasar": 27900000,
+          "harga_pajak": 27969750
+        },
+        {
+          "berat_gr": 20.0,
+          "harga_dasar": 55000000,
+          "harga_pajak": 55137500
+        }
+      ]
+    }
+  },
+  "buyback": {
+    "buyback_per_gram": 2600000,
+    "perubahan": 0,
+    "update_terakhir": "23 Aug 2026 07:54:17"
+  }
+}
